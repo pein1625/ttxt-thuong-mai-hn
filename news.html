@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="vi">
+    <head>
+        <title>Title</title>
+        <meta charset="utf-8" />
+        <meta name="description" content="Description" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+        <!-- Styles-->
+        <link rel="stylesheet" type="text/css" href="./css/libs.css" />
+        <link rel="stylesheet" type="text/css" href="./vendor/fontawesome-pro/css/all.min.css" />
+        <link rel="stylesheet" type="text/css" href="./css/app.css" />
+        <!-- Scripts-->
+        <script src="./js/libs.js" defer="defer"></script>
+        <script src="./js/app.js" defer="defer"></script>
+    </head>
+    <body>
+        <div class="page">
+            <!-- header-->
+            <header class="header">
+                <div class="header__wrapper">
+                    <div class="container">
+                        <div class="header__inner"><a class="header__logo" href="./index.html"><img src="./images/logo.png" alt="" /></a>
+                            <div class="header__elements">
+                                <div class="header__text">CÁC DỰ ÁN THU HÚT ĐẦU TƯ THÀNH PHỐ HÀ NỘI</div>
+                            </div>
+                            <button class="btn-toggle text-white d-xl-none js-navbar-toggle ms-1"></button>
+                        </div>
+                    </div>
+                    <nav class="navigation">
+                        <div class="container">
+                            <div class="navigation__inner">
+                                <section class="navbar js-navbar">
+                                    <div class="navbar__backdrop js-navbar-toggle"></div>
+                                    <div class="navbar__wrapper">
+                                        <div class="navbar__header"><a class="navbar__logo" href="./index.html"><img src="./images/logo.png" alt="" /></a>
+                                            <button class="btn-toggle js-navbar-toggle ms-auto"></button>
+                                        </div>
+                                        <div class="navbar__body">
+                                            <ul class="menu menu-root">
+                                                <li class="menu-item"><a class="menu-link active" href="./index.html">Trang chủ</a>
+                                                </li>
+                                                <li class="menu-item menu-item-group"><a class="menu-link" href="#!">Giới thiệu tiềm năng</a><span class="menu-toggle"></span>
+                                                    <ul class="menu menu-sub">
+                                                        <li class="menu-item"><a class="menu-link" href="#!">Dropdown</a>
+                                                        </li>
+                                                        <li class="menu-item"><a class="menu-link" href="#!">Dropdown</a>
+                                                        </li>
+                                                        <li class="menu-item"><a class="menu-link" href="#!">Dropdown</a>
+                                                        </li>
+                                                        <li class="menu-item menu-item-group"><a class="menu-link" href="#!">Dropdown</a><span class="menu-toggle"></span>
+                                                            <ul class="menu menu-sub menu-sub-2">
+                                                                <li class="menu-item"><a class="menu-link" href="#!">Dropdown</a>
+                                                                </li>
+                                                                <li class="menu-item"><a class="menu-link" href="#!">Dropdown</a>
+                                                                </li>
+                                                                <li class="menu-item"><a class="menu-link" href="#!">Dropdown</a>
+                                                                </li>
+                                                            </ul>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                                <li class="menu-item"><a class="menu-link" href="./projects.html">Dự án kêu gọi đầu tư</a>
+                                                </li>
+                                                <li class="menu-item"><a class="menu-link" href="./news.html">Tin tức</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </section>
+                                <form class="search">
+                                    <div class="input-group">
+                                        <input class="form-control" type="text" placeholder="Tìm kiếm..." size="1" />
+                                        <button class="input-group-text"><i class="far fa-search"></i></button>
+                                    </div>
+                                </form>
+                                <button class="h-btn d-none d-xl-flex ms-1 js-search-btn" type="button"><i class="fal fa-fw fa-lg fa-search"></i></button>
+                                <div class="h-dropdown">
+                                    <div class="h-dropdown__toggle">
+                                        <button class="h-btn ms-1" type="button"><i class="fal fa-fw fa-lg fa-user"></i></button>
+                                    </div>
+                                    <div class="h-dropdown__menu"><a class="h-dropdown__item" href="#!">Thông tin cá nhân</a><a class="h-dropdown__item" href="#!">Dự án đã lưu</a><a class="h-dropdown__item" href="#!" data-bs-toggle="modal" data-bs-target="#md-sign-in">Đăng nhập</a></div>
+                                </div>
+                                <div class="h-dropdown ms-2">
+                                    <div class="h-dropdown__toggle"><img src="./images/vn.svg" alt="" /><i class="fal fa-fw fa-angle-down ms-1"></i></div>
+                                    <div class="h-dropdown__menu"><a class="h-dropdown__item" href="#!"><img src="./images/vn.svg" alt="" /><span>Tiếng Việt</span></a><a class="h-dropdown__item" href="#!"><img src="./images/gb.svg" alt="" /><span>English</span></a></div>
+                                </div>
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+            </header>
+            <div class="page__content">
+                <!-- main content-->
+                <article class="banner">
+                    <div class="banner__breadcrumb">
+                        <nav>
+                            <div class="container">
+                                <ol class="breadcrumb">
+                                    <li class="breadcrumb-item active"></li>
+                                </ol>
+                            </div>
+                        </nav>
+                    </div><img class="banner__bg" src="./images/banner-news.jpg" alt="" />
+                    <div class="banner__title">Tin tức</div>
+                </article>
+                <section class="section">
+                    <div class="container">
+                        <div class="row g-3 g-sm-4">
+                            <div class="col-6 col-lg-4">
+                                <div class="news"><a class="news__frame" href="#!"><img src="./images/news-1.jpg" alt="" /></a>
+                                    <div class="news__body">
+                                        <div class="news__info">
+                                            <div class="news__time"><i class="fal fa-clock me-2"></i><span>15/04/2024</span></div>
+                                            <div class="news__like"><i class="fal fa-fw fa-heart"></i></div>
+                                        </div>
+                                        <h3 class="news__title"><a href="#!">Tin tức thủ đô mới của Malaysia chuyển về Kuala Lumper</a></h3>
+                                        <div class="news__desc">Mỗi một nhiệm vụ cụ thể phải được phân tích, mô tả chi tiết, rõ ràng; Kế hoạch triển khai phù hợp với phương pháp luận và tiến độ công việc cũ ...</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-6 col-lg-4">
+                                <div class="news"><a class="news__frame" href="#!"><img src="./images/news-1.jpg" alt="" /></a>
+                                    <div class="news__body">
+                                        <div class="news__info">
+                                            <div class="news__time"><i class="fal fa-clock me-2"></i><span>15/04/2024</span></div>
+                                            <div class="news__like"><i class="fal fa-fw fa-heart"></i></div>
+                                        </div>
+                                        <h3 class="news__title"><a href="#!">Tin tức thủ đô mới của Malaysia chuyển về Kuala Lumper</a></h3>
+                                        <div class="news__desc">Mỗi một nhiệm vụ cụ thể phải được phân tích, mô tả chi tiết, rõ ràng; Kế hoạch triển khai phù hợp với phương pháp luận và tiến độ công việc cũ ...</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-6 col-lg-4">
+                                <div class="news"><a class="news__frame" href="#!"><img src="./images/news-1.jpg" alt="" /></a>
+                                    <div class="news__body">
+                                        <div class="news__info">
+                                            <div class="news__time"><i class="fal fa-clock me-2"></i><span>15/04/2024</span></div>
+                                            <div class="news__like"><i class="fal fa-fw fa-heart"></i></div>
+                                        </div>
+                                        <h3 class="news__title"><a href="#!">Tin tức thủ đô mới của Malaysia chuyển về Kuala Lumper</a></h3>
+                                        <div class="news__desc">Mỗi một nhiệm vụ cụ thể phải được phân tích, mô tả chi tiết, rõ ràng; Kế hoạch triển khai phù hợp với phương pháp luận và tiến độ công việc cũ ...</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-6 col-lg-4">
+                                <div class="news"><a class="news__frame" href="#!"><img src="./images/news-1.jpg" alt="" /></a>
+                                    <div class="news__body">
+                                        <div class="news__info">
+                                            <div class="news__time"><i class="fal fa-clock me-2"></i><span>15/04/2024</span></div>
+                                            <div class="news__like"><i class="fal fa-fw fa-heart"></i></div>
+                                        </div>
+                                        <h3 class="news__title"><a href="#!">Tin tức thủ đô mới của Malaysia chuyển về Kuala Lumper</a></h3>
+                                        <div class="news__desc">Mỗi một nhiệm vụ cụ thể phải được phân tích, mô tả chi tiết, rõ ràng; Kế hoạch triển khai phù hợp với phương pháp luận và tiến độ công việc cũ ...</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-6 col-lg-4">
+                                <div class="news"><a class="news__frame" href="#!"><img src="./images/news-1.jpg" alt="" /></a>
+                                    <div class="news__body">
+                                        <div class="news__info">
+                                            <div class="news__time"><i class="fal fa-clock me-2"></i><span>15/04/2024</span></div>
+                                            <div class="news__like"><i class="fal fa-fw fa-heart"></i></div>
+                                        </div>
+                                        <h3 class="news__title"><a href="#!">Tin tức thủ đô mới của Malaysia chuyển về Kuala Lumper</a></h3>
+                                        <div class="news__desc">Mỗi một nhiệm vụ cụ thể phải được phân tích, mô tả chi tiết, rõ ràng; Kế hoạch triển khai phù hợp với phương pháp luận và tiến độ công việc cũ ...</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-6 col-lg-4">
+                                <div class="news"><a class="news__frame" href="#!"><img src="./images/news-1.jpg" alt="" /></a>
+                                    <div class="news__body">
+                                        <div class="news__info">
+                                            <div class="news__time"><i class="fal fa-clock me-2"></i><span>15/04/2024</span></div>
+                                            <div class="news__like"><i class="fal fa-fw fa-heart"></i></div>
+                                        </div>
+                                        <h3 class="news__title"><a href="#!">Tin tức thủ đô mới của Malaysia chuyển về Kuala Lumper</a></h3>
+                                        <div class="news__desc">Mỗi một nhiệm vụ cụ thể phải được phân tích, mô tả chi tiết, rõ ràng; Kế hoạch triển khai phù hợp với phương pháp luận và tiến độ công việc cũ ...</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-6 col-lg-4">
+                                <div class="news"><a class="news__frame" href="#!"><img src="./images/news-1.jpg" alt="" /></a>
+                                    <div class="news__body">
+                                        <div class="news__info">
+                                            <div class="news__time"><i class="fal fa-clock me-2"></i><span>15/04/2024</span></div>
+                                            <div class="news__like"><i class="fal fa-fw fa-heart"></i></div>
+                                        </div>
+                                        <h3 class="news__title"><a href="#!">Tin tức thủ đô mới của Malaysia chuyển về Kuala Lumper</a></h3>
+                                        <div class="news__desc">Mỗi một nhiệm vụ cụ thể phải được phân tích, mô tả chi tiết, rõ ràng; Kế hoạch triển khai phù hợp với phương pháp luận và tiến độ công việc cũ ...</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-6 col-lg-4">
+                                <div class="news"><a class="news__frame" href="#!"><img src="./images/news-1.jpg" alt="" /></a>
+                                    <div class="news__body">
+                                        <div class="news__info">
+                                            <div class="news__time"><i class="fal fa-clock me-2"></i><span>15/04/2024</span></div>
+                                            <div class="news__like"><i class="fal fa-fw fa-heart"></i></div>
+                                        </div>
+                                        <h3 class="news__title"><a href="#!">Tin tức thủ đô mới của Malaysia chuyển về Kuala Lumper</a></h3>
+                                        <div class="news__desc">Mỗi một nhiệm vụ cụ thể phải được phân tích, mô tả chi tiết, rõ ràng; Kế hoạch triển khai phù hợp với phương pháp luận và tiến độ công việc cũ ...</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-6 col-lg-4">
+                                <div class="news"><a class="news__frame" href="#!"><img src="./images/news-1.jpg" alt="" /></a>
+                                    <div class="news__body">
+                                        <div class="news__info">
+                                            <div class="news__time"><i class="fal fa-clock me-2"></i><span>15/04/2024</span></div>
+                                            <div class="news__like"><i class="fal fa-fw fa-heart"></i></div>
+                                        </div>
+                                        <h3 class="news__title"><a href="#!">Tin tức thủ đô mới của Malaysia chuyển về Kuala Lumper</a></h3>
+                                        <div class="news__desc">Mỗi một nhiệm vụ cụ thể phải được phân tích, mô tả chi tiết, rõ ràng; Kế hoạch triển khai phù hợp với phương pháp luận và tiến độ công việc cũ ...</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <nav class="d-flex justify-content-center mt-40 mt-xl-60">
+                            <ul class="pagination">
+                                <li class="page-item disabled"><a class="page-link" href="#!"><i class="fal fa-angle-left"></i></a></li>
+                                <li class="page-item active"><a class="page-link" href="#!">1</a></li>
+                                <li class="page-item"><a class="page-link" href="#!">2</a></li>
+                                <li class="page-item"><a class="page-link" href="#!">3</a></li>
+                                <li class="page-item"><a class="page-link" href="#!">4</a></li>
+                                <li class="page-item"><a class="page-link" href="#!">5</a></li>
+                                <li class="page-item"><a class="page-link" href="#!"><i class="fal fa-angle-right"></i></a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </section>
+            </div>
+            <!-- footer-->
+            <section class="section section--bg-pattern">
+                <div class="container">
+                    <h2 class="section__title text-white mb-4">Đăng ký nhận thông tin dự án</h2>
+                    <div class="text-center"><a class="button" href="#!">Đăng ký</a></div>
+                </div>
+            </section>
+            <footer class="footer">
+                <div class="footer__inner"><img class="footer__bg-1" src="./images/texture-4.png" alt="" /><img class="footer__bg-2" src="./images/texture-5.png" alt="" /><img class="footer__bg-3" src="./images/texture-6.png" alt="" />
+                    <div class="container"><a class="footer__logo mb-2" href="#!"><img src="./images/logo.png" alt="" /></a>
+                        <div class="row">
+                            <div class="col-lg-7 mb-40 mb-lg-0">
+                                <div class="footer__title">TRUNG TÂM XÚC TIẾN ĐẦU TƯ, THƯƠNG MẠI,<br />DU LỊCH THÀNH PHỐ HÀ NỘI</div>
+                                <ul class="f-contact mt-4">
+                                    <li><i class="fal fa-fw fa-envelope me-2"></i><span>Cơ sở 1: Số 10, Trịnh Hoài Đức, Cát Linh, Đống Đa, Hà Nội</span></li>
+                                    <li><i class="fal fa-fw fa-envelope me-2"></i><span>Cơ sở 2: Số 35 Tạ Quang Bửu, Bách Khoa, Hai Bà Trưng, Hà Nội</span></li>
+                                    <li><i class="fal fa-fw fa-envelope me-2"></i><a href="mailto:hpa@hanoi.gov.vn">hpa@hanoi.gov.vn</a></li>
+                                    <li><i class="fal fa-fw fa-phone me-2"></i><a href="tel:024.37757979">024.37757979</a></li>
+                                    <li><i class="fal fa-fw fa-phone me-2"></i><a href="tel:024.38319666">024.38319666</a></li>
+                                </ul>
+                                <div class="footer__content mt-4">
+                                    <p>Ghi rõ nguồn: <a href="http:/www.hpa.hanoi.gov.vn">“http:/www.hpa.hanoi.gov.vn"</a>. Khi phát hành lại thông tin từ website này<br />Giấy phép thiết lặp trang tin điện tử tổng hợp số: 5591/GP-TTĐT ngày 13/12/2017<br />Người chịu trách nhiệm về nội dung:Giám đốc trung tâm</p>
+                                </div>
+                            </div>
+                            <div class="col-lg-5">
+                                <div class="footer__title">THEO DÕI CÁC THÔNG TIN MỚI NHẤT TẠI</div>
+                                <ul class="f-social">
+                                    <li><a href="#!"><img src="./images/icon-facebook.svg" alt="" /></a></li>
+                                    <li><a href="#!"><img src="./images/icon-youtube.svg" alt="" /></a></li>
+                                    <li><a href="#!"><img src="./images/icon-tik-tok.svg" alt="" /></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer__copyright">
+                    <div class="container">© 2024. Trung tâm Xúc tiến đầu tư, Thương mại, Du lịch thành phố Hà Nội</div>
+                </div>
+            </footer>
+        </div>
+        <!-- modals + sticky widgets-->
+        <button class="btn-movetop" type="button" data-target="body"><i class="fa fa-arrow-up"></i></button>
+        <div class="md-form modal fade" id="md-sign-in" tabindex="-1">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <form class="modal-body md-form__body" action="#!">
+                        <button class="md-form__close" type="button" data-bs-dismiss="modal"><i class="far fa-lg fa-times"></i></button>
+                        <div class="md-form__banner"><img src="./images/banner-login.jpg" alt="" /></div>
+                        <div class="md-form__content"><a class="md-form__logo" href="#!"><img src="./images/logo.png" alt="" /></a>
+                            <div class="md-form__title">Đăng nhập</div>
+                            <div class="md-form__group">
+                                <label class="form-label mb-0">Địa chỉ Email</label>
+                                <input class="form-control" type="email" />
+                            </div>
+                            <div class="md-form__group">
+                                <label class="form-label mb-0">Mật khẩu</label>
+                                <input class="form-control" type="password" />
+                            </div>
+                            <div class="md-form__btns">
+                                <button class="md-form__btn" type="submit">Đăng nhập</button><a class="md-form__btn-2" href="#!"><i class="fab fa-google me-3"></i><span>Đăng nhập bằng tài khoản Google</span></a>
+                            </div>
+                            <div class="md-form__footer">
+                                <div class="d-flex justify-content-center">
+                                    <label class="checkbox-styled">
+                                        <input class="checkbox-styled__input" type="checkbox" name="checkbox" /><span class="checkbox-styled__icon"></span><span>Lưu thông tin đăng nhập</span>
+                                    </label>
+                                </div>
+                                <div class="mt-2 text-center">Bạn chưa có tài khoản? <a class="d-inline-block text-primary fw-700 js-switch-modal" href="#md-sign-up">Đăng ký tài khoản</a></div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="md-form modal fade" id="md-sign-up" tabindex="-1">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <form class="modal-body md-form__body" action="#!">
+                        <button class="md-form__close" type="button" data-bs-dismiss="modal"><i class="far fa-lg fa-times"></i></button>
+                        <div class="md-form__banner"><img src="./images/banner-login.jpg" alt="" /></div>
+                        <div class="md-form__content"><a class="md-form__logo" href="#!"><img src="./images/logo.png" alt="" /></a>
+                            <div class="md-form__title">Đăng ký tài khoản</div>
+                            <div class="md-form__desc">Tài khoản dùng thử hoàn toàn miễn phí</div>
+                            <div class="md-form__group">
+                                <label class="form-label mb-0">Họ và Tên</label>
+                                <input class="form-control" type="text" />
+                            </div>
+                            <div class="md-form__group">
+                                <label class="form-label mb-0">Địa chỉ Email</label>
+                                <input class="form-control" type="email" />
+                            </div>
+                            <div class="md-form__group">
+                                <label class="form-label mb-0">Mật khẩu</label>
+                                <input class="form-control" type="password" />
+                            </div>
+                            <div class="md-form__btns">
+                                <button class="md-form__btn" type="submit">Đăng ký tài khoản</button><a class="md-form__btn-2" href="#!"><i class="fab fa-google me-3"></i><span>Đăng ký bằng tài khoản Google</span></a>
+                            </div>
+                            <div class="md-form__footer">
+                                <div class="d-flex justify-content-center">
+                                    <label class="checkbox-styled">
+                                        <input class="checkbox-styled__input" type="checkbox" name="checkbox" /><span class="checkbox-styled__icon"></span><span>Đăng ký nhận thông tin các dự án</span>
+                                    </label>
+                                </div>
+                                <div class="mt-2 text-center">Bạn đã có tài khoản? <a class="d-inline-block text-primary fw-700 js-switch-modal" href="#md-sign-in">Đăng nhập</a></div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
